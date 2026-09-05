@@ -1,13 +1,9 @@
 from pathlib import Path
 import urllib.request
-import duckdb
 
 # Get the folder this Python file is in
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "Data"
-
-# Database
-DB_PATH = DATA_DIR / "housing.duckdb"
 
 # CSV
 CSV_PATH = DATA_DIR / "pp-complete.csv"
